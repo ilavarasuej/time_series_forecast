@@ -1,10 +1,14 @@
-#time_series_forecast
+## Time Series Dataset EDA
+- Loading the dataset and converting into datetime format
+- Check for missing value
+- Monthly frequency analysis
+- Decompose the series for trend and seasonality
+- Rolling Mean and Standard deviation
+- ACF and PACF check
+- Stationary check
 
-Time Series EDA 
-[1] Loading the dataset and converting into datetime format
-[2] Check for missing value
-[3] Monthly frequency analysis
-[4] Decompose the series for trend and seasonality
-[5] Rolling Mean and Standard deviation
-[6] ACF and PACF check
-[7] Stationary check
+## Time Series Model
+
+- Selection of trend and seasonal parameters P, Q using auto arima
+- Train the dataset using SARIMA
+- Forecast using the model
